@@ -182,8 +182,8 @@ namespace NetCoreAPI_Template_v3_with_auth
         {
             services.AddSwaggerGen(config =>
             {
-                var xmlPath = System.AppDomain.CurrentDomain.BaseDirectory + "WebApi.XML";
-                config.IncludeXmlComments(xmlPath);
+                //var xmlPath = System.AppDomain.CurrentDomain.BaseDirectory + "WebApi.XML";
+                //config.IncludeXmlComments(xmlPath);
 
                 config.SwaggerDoc("v1", new OpenApiInfo { Version = "v1", Title = _projectName });
 

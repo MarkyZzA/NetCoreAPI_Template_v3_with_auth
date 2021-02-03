@@ -22,7 +22,6 @@ namespace NetCoreAPI_Template_v3_with_auth.Services
         private readonly AppDBContext _db;
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuraton;
-        private readonly string containerName = "people";
 
         /// Constructor
         public AuthService(IHttpContextAccessor httpContext,
